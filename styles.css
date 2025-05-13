@@ -1,0 +1,120 @@
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #0F172A; /* Dark slate */
+    color: #F3F4F6; /* Off-white text */
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #1E3A8A; /* Royal Blue */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #FBBF24; /* Amber */
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    color: #FBBF24;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #F3F4F6;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #FBBF24;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .intro, .about, .contact {
+    margin-bottom: 30px;
+  }
+  
+  .featured-products h3 {
+    margin-bottom: 15px;
+    color: #FBBF24;
+  }
+  
+  .product-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .product {
+    background-color: #1E293B;
+    padding: 15px;
+    border: 1px solid #FBBF24;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  form input,
+  form textarea,
+  form button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #FBBF24;
+    background-color: #1E293B;
+    color: #F3F4F6;
+  }
+  
+  form button {
+    background-color: #FBBF24;
+    color: #1E3A8A;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  form button:hover {
+    background-color: #fcd34d;
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+  }
+  
+  footer {
+    background-color: #1E3A8A;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    border-top: 4px solid #FBBF24;
+  }
+  
